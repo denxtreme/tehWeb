@@ -1,0 +1,2 @@
+npm install cors nodemailer  		-> pentru server mail
+npm i react-mailchimp-subscribe 	-> pentru newsletter

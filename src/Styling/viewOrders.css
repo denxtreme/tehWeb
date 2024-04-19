@@ -1,0 +1,25 @@
+.table-container-order {
+    margin: 20px;
+  }
+  
+  .table_order {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+  }
+  
+  .table_order th, .table_order td {
+    padding: 12px 8px; /* Spatiu intre celule */
+    text-align: left;
+    border-bottom: 10px solid #ddd;
+    
+  }
+  
+  .table_order th {
+    background-color: rgb(133, 46, 247);
+    font-weight: 700;
+    font-size: 20px;
+    padding: 13px;
+  }
+  
+  

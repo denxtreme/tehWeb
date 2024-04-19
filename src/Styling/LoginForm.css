@@ -1,0 +1,127 @@
+.wrapper {
+    width: 25em;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,.2);
+    backdrop-filter: blur(30px);
+    color: rgv(255,255,255);
+    border-radius: 10px;
+    padding: 1.4em 2em;
+}
+
+.wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.wrapper .input-box {
+    display: flex; 
+    align-items: center; 
+    position: relative;
+    width: 100%;
+    height: 3.3em;
+    margin: 1.5em 0;
+}
+
+.input-box input {
+    flex: 1; 
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255,255,255,.2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: white;
+    padding: 1.2em 2em 1.3em 1.3em;
+}
+
+
+.input-box input::placeholder {
+    color: rgb(255, 255, 255);
+}
+
+.input-box .icon {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 22px;
+}
+
+.wrapper .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin: 26px 0 15px;
+}
+
+.remember-forgot a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover {
+    text-decoration: solid 1px underline;
+}
+
+.wrapper button {
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.wrapper button:hover {
+    background-color: black;
+    color: white;
+    border: 2px solid;
+    position: relative;
+    background-color: transparent;
+    transition: 0.4s ease-in-out;
+}
+
+.wrapper .register-link {
+    font-size: 15px;
+    text-align: center;
+    margin: 10px 0 15px;
+}
+
+.register-link p a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-link p a:hover {
+    text-decoration: solid 1px underline;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

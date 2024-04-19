@@ -1,0 +1,23 @@
+.table-container-info {
+    margin: 20px;
+  }
+  
+  .table_info  {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+  }
+  
+  .table_info th,  .table_info td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd !important;
+  }
+  
+  .table_info th {
+    background-color: rgb(133, 46, 247);
+    font-weight: 700;
+    font-size: 20px;
+    border-bottom: 1px solid #ddd o !important;
+  }
+  

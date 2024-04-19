@@ -1,0 +1,67 @@
+.user-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+
+  
+  .user-table th, .user-table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .user-table th {
+    background-color: #b309de;
+  }
+  
+  .new-user-form {
+    margin-top: 50px;
+  }
+
+
+  .new-user-form input {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .new-user-form button {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .new-user-form button:hover {
+    background-color: #45a049;
+  }
+  
+  .actions button {
+    margin-right: 5px;
+  }
+  
+
+  .div_btn_table_admin {
+    padding: 10px;
+    margin-left: 10px;
+  }
+
+  .btn_table_admin {
+    padding: 4px;
+    width: 45px;
+    height: 45px;
+    margin-left: 10px;
+    border-radius: 70px;
+    border: 2px white solid;
+  }
+
+  .btn_table_admin:hover{
+    padding: 4px;
+    width: 45px;
+    height: 45px;
+    margin-left: 10px;
+    border-radius: 70px;
+    border: 2px rgb(255, 255, 255) solid;
+    background-color: rgb(116, 32, 241);
+  }
+

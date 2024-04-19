@@ -1,0 +1,274 @@
+/*Custom Fonts*/
+
+@font-face {
+    font-family: Centra;
+    src: url('../assets/font/CentraNo2-Bold.ttf');
+    font-weight: 800;
+  }
+  
+  @font-face {
+    font-family: Centra;
+    src: url('../assets/font/CentraNo2-Book.ttf');
+    font-weight: 400;
+  }
+  
+  @font-face {
+    font-family: Centra;
+    src: url('../assets/font/CentraNo2-Medium.ttf');
+    font-weight: 600;
+  }
+  
+  /*Default css*/
+  
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 75px;
+  }
+  
+  
+  body {
+    font-weight: 400;
+    overflow-x: hidden;
+    position: relative;
+    background-color: #000000 !important; /*pentru ca bootstrap styling sa nufaca overwrite pste 
+    styleul nostru, setam pe important*/
+    color: #fff !important; /*culoare text*/
+    font-family: 'Centra', sans-serif !important;
+  
+  }
+  
+  h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+  
+  }
+  
+  p, a, li, button, ul {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+  text-decoration: none;
+  }
+  
+  a:hover {
+  text-decoration: none;
+  }
+  
+  img {
+  width: 70%;
+  height: auto;
+  }
+  
+  button {
+  border: 0;
+  background-color: transparent;
+  }
+  
+  input:focus, textarea:focus, select:focus {
+  outline: none;
+  }
+  
+  @media (min-width:1700px) {
+  main .container {
+    max-width: 100%;
+    padding: 0 150px;
+  }
+  }
+  
+  p.success {
+  color: green;
+  }
+  
+  p.danger {
+  color: red;
+  }
+
+  
+  
+  /*///////////Subscriptions//////////*/
+  
+  .subscription {
+    padding: 120px 20px 50px 30px;
+    position: center;
+    background-color: rgb(116, 32, 241);
+  }
+  
+  .subs-box {
+    background: #2b0633;
+    border-radius: 64px;
+    text-align: center;
+    padding: 60px 60px;
+    margin-top: -10px;
+  }
+  
+  .subscription h2 {
+      font-size: 80px;
+      font-weight: 700;
+  }
+  
+  .subscription p {
+    color: #B8B8B8;
+    font-size: 40px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    margin: 10px 0 40px 0;
+  }
+  
+  .subs-slider {
+    width: 80%;         /*80% este necesar pentru a vedea 3 imagini procentuale*/
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .subs-slider .item img {
+    width: 60%;         /*marimea unei imagini procentuale*/
+    margin: 0 auto 15px auto;
+  }
+  
+  .background-image-left {
+    top: 3%;                  /*pentru colorSharp, efectul de culoare din dreapta jos*/
+    position: absolute;       /*spre stanga*/
+    bottom: 0;
+    width: 40%;
+    z-index: -4;
+  }
+  
+
+
+  .divShopCartbtn {
+    text-align: center; /* Centrare text */
+}
+
+.shopCartbtn {
+    display: inline-flex; /* Face ca butonul să fie un container flexibil pe un singur rând */
+    align-items: center; /* Aliniază elementele pe axa verticală (linie) */
+    padding: 12px; /* Ajustează spațiul în jurul butonului după necesități */
+    border: 2px solid rgba(255, 255, 255, 0.5);; /* Elimină stilurile implicite ale butonului */
+    border-radius: 13%;
+    background: none; /* Elimină stilurile implicite ale butonului */
+    cursor: pointer; /* Adaugă o reacție de cursor la hover */
+}
+
+.shopCartbtn span {
+    margin-right: 5px; /* Adaugă un mic spațiu între text și imagine */
+}
+
+.shopCartbtn img {
+    max-width: 20px; /* Ajustează lățimea imaginii după necesități */
+}
+
+  
+  .background-image-right {
+    top: 20%;
+    position: absolute;
+    bottom: 0;
+    width: 35%;
+    right: 0;
+    z-index: -4;
+  }
+  
+  /*Contact.css*/
+  
+  .contact {
+    background: linear-gradient(to right, #d921f1, #8d0bf8);
+    padding: 60px 20px 200px 0;
+  }
+  
+  .contact img {
+    width: 85%;
+  }
+  
+  .contact h2 {
+      font-size: 45px;
+      font-weight: 700;
+    margin-bottom: 30px;
+  }
+  
+  .contact form input, .contact form textarea {
+    width: 100%;
+    background: rgba(245, 20, 20, 0.1);
+    border: 2px solid rgba(159, 215, 230, 0.5);
+    border-radius: 25px;
+    color: #ffffff;
+    margin: 0 0 8px 0;
+    padding: 18px 20px;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    transition: 0.3s ease-in-out;
+  }
+  
+  /*pentru a crea efect de focus, cand dam click pe o casuta*/
+  .contact form input:focus, .contact form textarea:focus {
+    background: rgba(255, 255, 255, 1);
+    color: #5900ff;  /*scris*/
+  }
+  
+  /*placeholder - in loc de label*/
+  .contact form input::placeholder, .contact form textarea::placeholder {
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+  }
+  
+  .contact form input:focus::placeholder, .contact form textarea:focus::placeholder {
+    color: #121212;
+    opacity: 1;  /*efect de ingrosare la scris, se vede mai bine*/
+  }
+  
+  .contact form button {
+    font-weight: 700;
+    color: #000;
+    background-color: #ede9f0ce;
+    border: 2px solid #89fbffc2;
+    padding: 14px 48px;
+    font-size: 18px;
+    margin-top: 25px;
+    border-radius: 20px;
+    position: relative;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .contact form button span {
+    z-index: 1;
+    position: relative;
+  }
+  .contact form button:hover {
+    color: #fff;
+  }
+  .contact form button::before {
+    content: "";
+    background: #a200ff;
+    border-radius: 20px;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    transition: 0.3s ease-in-out;
+  }
+  .contact form button:hover::before {
+    width: 100%;
+  }
+  
+  /***Footer***/
+  
+  .footer {
+    padding: 0 0px 50px 0;
+    background-image: url('../assets/img/footer-bg.png');
+    background-position: center;
+    background-size: cover;
+  
+  }
+  
+  .footer img {
+    width: 20%;
+  }

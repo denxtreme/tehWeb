@@ -1,0 +1,165 @@
+
+  /*Supplements*/
+  
+  .dashb {
+    padding: 150px;
+    position: relative;
+    background-color: rgb(133, 46, 247);
+
+  }
+  
+  .dashb h2 {
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    padding: 30px;
+  }
+
+  .dashb h3 {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: right;
+    padding-top: 30px;
+  }
+
+  .dashb h4 {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .dashb h5 {
+    font-size: 23px;
+    font-weight: 400;
+    text-align: right;
+    padding: 5px;
+  }
+  
+  .dashb p {
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0.8px;
+    line-height: 1.2em;
+    margin: 14px auto 30px auto;
+    text-align: center;
+    width: 66%;
+  }
+
+  .col-dashb {
+    padding: 10px;
+    position: cover;
+  }
+  .row-dashb {
+    padding: 10px;
+  }
+
+  
+  .dashb .nav.nav-pills {          /*componenta pills a lui Nav*/
+    width: 60%;                         /*folosim pentru a crea o bordura in jurul*/
+    margin: 0 auto;                     /*tab-urilor*/
+    background-color: rgba(26, 9, 25, 0.548);
+    overflow: hidden;
+  }
+  
+  .dashb .nav.nav-pills .nav-item {
+    width: 33.33333%;                   /*Marimea fiecarui tab(fiind 3, width 1/3)*/
+  }
+
+
+  
+  .dashb .nav.nav-pills .nav-link {
+    background-color: transparent;      /*transparent pt ca se vede peste gradientul*/
+    border-radius: 0;                   /*de la active-link*/
+    padding: 17px 0;
+    color: #fff;
+    width: 100%;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    font-weight: 500;
+    position: relative;
+    transition: 0.5s ease-in-out;     /*Tranzitie pentru animatie apasare taburi*/
+    text-align: center;
+    z-index: 0;                     /*controlam ca coordonata z sa fie pe 0, 
+                                    nivelul de baza pe o pagian web*/
+                                    /*elem cu index z mai mici ca 0 vor
+                                    fi dedesupt, cele cu z > 0 deasupra*/
+  }
+  
+  .dashb .nav.nav-pills .nav-link::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 100%;
+    background: linear-gradient(to right, #AA367C, #4A2FBD);
+    top: 0;                   /*pe 0 ambele ca sa se faca animatia pe tot tabul*/
+    left: 0;                  /* selectat si jos si sus*/
+    z-index:-1;               /*setam aici la -1 ca dac ar fi mai mare ca z-index de
+                              mai sus ar face animatie de tranzitie peste scris*/
+    transition: 0.3s ease-in-out;
+  }
+  
+  .dashb .nav.nav-pills .nav-link.active::before {
+    width: 100% !important;     /*100% pt ca animatia sa se faca pe toata latimea
+                                tab*/
+  }
+  
+  
+  .nav-link#dashbs-tabs-tab-first {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+  }
+  .nav-link#dashbs-tabs-tab-second {
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  }
+  .nav-link#dashbs-tabs-tab-third {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+  }
+
+  .nav-link#supplements-tabs-tab-fourth {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+  }
+  .nav-link#dashbs-tabs-tab-fifth {
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  }
+  .nav-link#dashbs-tabs-tab-sixth {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+  }
+
+  /*taburile de mai sus pentru bordura dintre taburi, sa se vada diferenta
+  dintre tab1, tab2 si tab3*/
+  
+  
+  /* .suppl-imgbox {
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    padding: 7px;
+    text-align: center;
+  }
+
+  .suppl-imgbox .imagine{
+    width: 150px;
+    height: 180px;
+    margin: 10%;
+  } */
+/* 
+  .suppl-imgbox .ceva{
+    width: 150px;
+    height: 150px;
+  } */
+  
+  /*font text h4 - supplObj.js*/
+  /* .suppl-txtx h4 {
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    line-height: 1.1em;
+  }
+  
+  .suppl-txtx span {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.8px;
+  } */
+

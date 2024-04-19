@@ -1,0 +1,63 @@
+  /*Banner css*/
+  
+  .banner {
+    margin-top: 0;
+    padding: 25% 0 10% 0;
+    background-image: url('../assets/img/banner_dumb.jpg');
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .banner .tagline {
+    font-weight: 700; /* font bold*/
+    letter-spacing: 0.8px; /* spatiu caractere */
+    padding: 8px 10px; /* 8px pad sus-jos, 10px dr-stg*/
+    background: linear-gradient(to right, blue, green); /* gradient liniar */
+    border: 1px solid rgba(218, 14, 14, 0.5); /* bordură 1px rosu solid*/
+    font-size: 20px; /* font 20px*/
+    margin-bottom: 1.2em; 
+    display: inline-block; /* Elementul inline-block, se aliniaza cu restul de elemente*/
+  }
+  
+  
+  .banner h1 {  /*modificare style elem h1 din banner*/
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    background: linear-gradient(to right, black, rgb(6, 6, 27)); /* gradient liniar */
+    line-height: 1;
+    margin-bottom: 20px;
+    display: inline-block;
+  }
+  
+  .banner p { /*modificare style elem p din banner*/
+    color: #ffffff;
+    font-size: 17px;
+    letter-spacing: 0.8px;
+    line-height: 1.2em; /*distantiere intre randurile scrise, 1.2 ori inaltime standard*/
+  }
+  
+  .banner button {
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    letter-spacing: 0.8px;
+    display: flex; /*elementul devine flexibil si se poate alinia in spatiul
+                    disponibil din container */
+    align-items: center;
+  }
+  
+  .banner button svg {
+    font-size: 25px;
+    margin-left: 10px;
+    transition: 0.3s ease-in-out;   
+    line-height: 1;
+  }
+  .banner button:hover svg {    /*in momentul in care suntem cu cursorul pe button
+                                tranzitia ease-in-out incepe, oferind un efect dinamic
+                                butonului*/
+    margin-left: 25px;
+  }
+  

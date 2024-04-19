@@ -1,0 +1,58 @@
+
+  /*Supplements*/
+  
+  .dash_admin {
+    padding: 150px;
+    position: relative;
+    background-color: rgb(133, 46, 247);
+
+  }
+  
+  .dash_admin h2 {
+    font-size: 1.5em;
+    font-weight: 700;
+    text-align: center;
+    padding: 30px;
+    box-sizing: border-box; /* Adaugă această linie */
+}
+
+  .dash_admin h3 {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: right;
+    padding-top: 30px;
+  }
+
+  .dash_admin h4 {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .dash_admin h5 {
+    font-size: 23px;
+    font-weight: 400;
+    text-align: right;
+    padding: 5px;
+  }
+  
+  .dash_admin p {
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0.8px;
+    line-height: 1.2em;
+    margin: 14px auto 30px auto;
+    text-align: center;
+    width: 66%;
+  }
+
+  .col-dash_admin {
+    padding: 10px;
+    position: cover;
+  }
+  .row-dash_admin {
+    padding: 10px;
+    width: 100%;
+  }
+
